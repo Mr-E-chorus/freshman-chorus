@@ -119,7 +119,57 @@
     // --------------- SONG LIBRARY ---------------
     // Add more songs by copying this object and changing fields.
     const SONGS = [
-      
+      {
+      id: "seal",
+      title: "Seal Lullaby",
+      basePath: "assets/Seal Lullaby/",
+      tracks: [
+      { label: "Accompaniment", file: "Accompaniment Seal Lullaby.wav" },
+      { label: "Soprano",            file: "Soprano Seal Lullaby.wav" },
+      { label: "Alto",          file: "Alto Seal Lullaby.wav" },
+      { label: "Baritone",         file: "Baritone Seal Lullaby.wav" },
+      ],
+      beatsPerMeasure: 3,
+      measuresTotal:   77,          // <- set the actual count
+      pickupBeats:     0,            // <- set if there is a pickup
+      tempoMap: [
+      { measure: 1, bpm: 66 }
+      ]
+      }
+      {
+      id: "stuff",
+      title: "All that Holiday Stuff",
+      basePath: "assets/All that Holiday Stuff/",
+      tracks: [
+      { label: "Accompaniment", file: "Accompaniment All that Holiday Stuff.wav" },
+      { label: "Soprano",            file: "Soprano All that Holiday Stuff.wav" },
+      { label: "Alto",          file: "Alto All that Holiday Stuff.wav" },
+      { label: "Baritone",         file: "Baritone All that Holiday Stuff.wav" },
+      ],
+      beatsPerMeasure: 4,
+      measuresTotal:   77,          // <- set the actual count
+      pickupBeats:     0,            // <- set if there is a pickup
+      tempoMap: [
+      { measure: 1, bpm: 96 }
+      ]
+      }
+     {
+      id: "have",
+      title: "Have Yourself a Merry Little Christmas",
+      basePath: "assets/Have Yourself a Merry Little Christmas/",
+      tracks: [
+      { label: "Accompaniment", file: "Accompaniment Have Yourself a Merry Little Christmas.wav" },
+      { label: "Soprano",            file: "Soprano Have Yourself a Merry Little Christmas.wav" },
+      { label: "Alto",          file: "Alto Have Yourself a Merry Little Christmas.wav" },
+      { label: "Baritone",         file: "Baritone Have Yourself a Merry Little Christmas.wav" },
+      ],
+      beatsPerMeasure: 4,
+      measuresTotal:   77,          // <- set the actual count
+      pickupBeats:     0,            // <- set if there is a pickup
+      tempoMap: [
+      { measure: 1, bpm: 88 }
+      ]
+      }
       // Example stub for adding another song later:
       // {
       //   id: "close-every-door",
