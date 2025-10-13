@@ -119,7 +119,23 @@
     // --------------- SONG LIBRARY ---------------
     // Add more songs by copying this object and changing fields.
     const SONGS = [
-      
+      {
+      id: "seal",
+      title: "Close Every Door",
+      basePath: "assets/Seal Lullaby/",
+      tracks: [
+      { label: "Accompaniment", file: "Accompaniment Seal Lullaby.wav" },
+      { label: "Soprano",            file: "Soprano Seal Lullaby.wav" },
+      { label: "Alto",          file: "Alto Seal Lullaby.wav" },
+      { label: "Baritone",         file: "Baritone Seal Lullaby.wav" },
+      ],
+      beatsPerMeasure: 3,
+      measuresTotal:   77,          // <- set the actual count
+      pickupBeats:     0,            // <- set if there is a pickup
+      tempoMap: [
+      { measure: 1, bpm: 66 }
+      ]
+      }
       // Example stub for adding another song later:
       // {
       //   id: "close-every-door",
